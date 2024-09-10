@@ -1,9 +1,10 @@
 import React from 'react'
+import AddPerson from './AddPerson'
 
 function App() {
   return (
     <>
-    <div>App</div>
+    <AddPerson />
     </>
   )
 }
