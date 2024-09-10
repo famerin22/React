@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Person() {
+function Person({name}) {
   return (
-    <div>Person</div>
+    <div>{name}</div>
   )
 }
 
